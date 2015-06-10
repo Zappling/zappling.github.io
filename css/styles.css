@@ -270,7 +270,7 @@ ul.navi li a.down:hover {
 
 }
 
-.slider-navs { width:100%; display:block; margin:50px auto 0; padding:0 30px 0; }
+.slider-navs { width:100%; display:block; margin:0px auto 0; padding:0 0px 0; }
 
 .slider-navs li { float:left; width:25%;   }
 
@@ -287,7 +287,7 @@ ul.navi li a.down:hover {
 
 .slide { width:auto!important; overflow:hidden; height:496px; }
 .slide-wrap { padding:0 90px 0px; }
-.slide-img { padding:71px 0 0; position:relative;   }
+.slide-img { padding:0px 0 0; position:relative;   }
 .slide-img img { width:400px; height:425px;  }
 
 .slide-img3 img { width:480px; height:415px; display:block;   bottom:0;    }
@@ -295,9 +295,9 @@ ul.navi li a.down:hover {
 .slide-img4 img { width:480px; height:415px; display:block;  float:left;  }
 
 
-.slide-img2 { padding:81px 0 0 0;  }
-.slide-img3 {  float:right; width:480px; height:415px; margin:82px 0 0; }
-.slide-img4 {  float:right; width:480px; height:415px; margin:82px 0 0; }
+.slide-img2 { padding:0 0 0 0;  }
+.slide-img3 {  float:right; width:480px; height:415px; margin:0 0 0; }
+.slide-img4 {  float:right; width:480px; height:415px; margin:0 0 0; }
 .slide-wrap2 { padding:0 0px 0px 90px;  }
 
 .spcial { margin:0 0 0 0!important; padding:0 0 0 0!important; }
@@ -329,7 +329,7 @@ ul.navi li a.down:hover {
  }
  
 
-.slide-txt { padding:140px 0 0 0; }
+.slide-txt { padding:70px 0 0 0; }
 .slide-txt2 { padding:0 0 0 0; }
 
 .slide-txt a { text-transform:uppercase; height:30px; width:120px; display:block; background-color:#42474c; color:#ffffff; font-size:12px; line-height:30px; text-align:center; border-radius:4px; margin:30px 0 0; }
