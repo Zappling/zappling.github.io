@@ -277,7 +277,7 @@ ul.navi li a.down:hover {
 .slider-navs li a i { clear:both; font-size:16px; color:#bebebe; width:100%; text-align:center; margin:0 0 15px; }
 .slider-navs li a   { float:left; width:95%; display:block; text-align:center; color:#bebebe; font-size:14px; text-transform:uppercase; }
 
-.slider-navs li span   { width:1px; height:32px; display:block; background-color:#e5e5e5; float:left; margin:20px 0 0; }
+.slider-navs li span   { width:1px; height:90px; display:block; background-color:#e5e5e5; float:left; margin:20px 0 0; }
 
 .slider-navs li:hover { cursor:pointer; }
 

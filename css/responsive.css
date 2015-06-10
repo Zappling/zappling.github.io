@@ -1,5 +1,18 @@
 /* 960 Screen Sizes */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img,
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
+.slider-nav a img {
+    padding: 10px 40px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
  
@@ -12,10 +25,15 @@
     .containe2 img {  display:block; margin:50px auto 0; }
      .main-section { height:600px!important;  }
 
+
+
+
 }
 
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-navs li span { height: 60px;}
 	.main-txt { text-align:center; }
     .main-txt h1 { width:100%; }
     .main-but { width:360px!important; margin:48px auto 0!important; }
@@ -74,8 +92,10 @@
  
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-
+    .slider-nav a img {
+        padding: 0px 15px;
+    }
+    .slider-navs li span { height: 40px;}
     .main-txt { text-align:center; }
     .main-txt h1 { width:100%; }
     .main-but { width:360px!important; margin:48px auto 0!important; }
@@ -157,7 +177,10 @@ right: 0; }
 }
 /* Mobile Portrate Screen Sizes */
 @media only screen and (max-width: 479px) {
-
+ .slider-navs li span { height: 0px;}
+    .slider-nav a img {
+        padding: 0px 5px;
+    }
  .main-txt { text-align:center; }
     .main-txt h1 { width:100%; }
     .main-but { width:180px!important; margin:48px auto 0!important; height:100px;}
@@ -171,9 +194,9 @@ right: 0; }
     .main-img { margin:80px auto 0; width:300px; }
     .main-section {      .main-section { height:700px!important;  }
  }
-    .slider-navs li a { font-size:0px!important; }
-    .slider-navs li span { height:18px; margin:0; display:none; }
-    .slider-navs li a i {font-size:20px; }
+    /*.slider-navs li a { font-size:0px!important; }*/
+    /*.slider-navs li span { height:18px; margin:0; display:none; }*/
+    /*.slider-navs li a i {font-size:20px; }*/
     h2.title { font-size:28px;}
     .slider-container { height:862px; overflow:hidden;  }
     .slide-wrap { padding:0 0px 0px; }
@@ -257,7 +280,6 @@ right: 0; }
     .testi-bg { left: 50%;	margin-left: -40px; }
     .logo { opacity:1; margin:5px auto  0; width:100px; float:none; }
     .navi { display:none; }
-    .slider-navs li a { font-size:12px; }
     .section-wrap { padding:0; }    
     .imag2s, .imag2l { display:none; }
     .testi-txt {  padding: 0 40px;  }
