@@ -288,7 +288,7 @@ ul.navi li a.down:hover {
 .slide { width:auto!important; overflow:hidden; height:496px; }
 .slide-wrap { padding:0 90px 0px; }
 .slide-img { padding:0px 0 0; position:relative;   }
-.slide-img img { width:400px; height:425px;  }
+.slide-img img { width:400px; /*height:425px;*/  }
 
 .slide-img3 img { width:480px; height:415px; display:block;   bottom:0;    }
 .slide-img2 img { width:480px; height:415px; display:block;  float:left;  }
