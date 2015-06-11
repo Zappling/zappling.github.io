@@ -195,6 +195,11 @@ h3.subtitle, .quat, p, .email-newsletter, .p1-icon , .p1 a, .p2 a, .p2-icon {
 	margin:5px 0 0;
 }
 
+.logo img {
+	top: -21px;
+  position: relative;
+}
+
 ul.navi { 
 	float:right; 
 	opacity:1; 
